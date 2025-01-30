@@ -1,0 +1,9 @@
+HOW TO COMPILE
+--------------
+
+*** If you are using Overleaf, put all files and fonts folder in the same project folder or just download the project as a ZIP file from github and create a new project in Overleaf from that zip file.
+
+*** Set the compiler to 'XeLaTeX' in the left Menu if you want LU fonts or 'pdfLaTeX' for default LaTeX fonts.
+
+Good Luck with your thesis!
+
