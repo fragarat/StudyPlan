@@ -1,0 +1,63 @@
+\documentclass[en,cm,10pt]{inst}
+\begin{document}
+	\section*{Study Plan for Degree Project}
+	Degree Project: NUMM03 for Master's Degree in Numerical Analysis \\
+	Student: John Doe, XXXXXX-XXXX\\
+	Advisor: --\\
+	Examiner: --\\ 
+	Time:  January 20, 2025 -- June 8, 2025\\
+    Preliminary examination date: June 8, 2025
+	
+	\subsubsection*{Content}
+	This project focuses on reduced-order modeling (ROM), a technique for simplifying complex systems, and its integration with novel machine learning approaches, specifically addressing model problems in numerical analysis and computational physics (e.g., Burgers' equation).\\
+    
+    \noindent The thesis integrates Operator Inference (OpInf), a data-driven method for approximating reduced-order operators, with adjoint methods and potentially automatic differentiation. OpInf uses time series data $\{a(t_i)\}$ from complex systems to infer reduced-order operators $\{\hat{f}(a, \theta)\}$. By optimizing parameters $\theta$ using a loss function tied to system dynamics, this work explores efficient gradient computation during training through adjoint or automatic differentiation.\\
+
+    The main objectives of the thesis are:
+    \begin{itemize}
+        \item Derive and reformulate the adjoint problem for Neural ODEs in the context of OpInf's integral form.
+        \item Bridge classical numerical analysis techniques (e.g., ROM) with modern machine learning methods.
+    \end{itemize}
+	
+	\subsubsection*{Literature}
+	%for instance Borevich--Shafarevich, \textit{Number Theory}.
+    \begin{itemize}
+    
+        \item Quarteroni, Alfio and Manzoni, Andrea and Negri, Federico. \textit{Reduced basis methods for partial differential equations: an introduction}. 2015
+        \item Peherstorfer, Benjamin and Willcox, Karen. \textit{Data-driven operator inference for nonintrusive projection-based model reduction}. 2016
+        \item Ghattas, Omar and Willcox, Karen. \textit{Learning physics-based models from data: perspectives from inverse problems and model reduction}. 2021
+        \item McQuarrie, Shane and Guo, Mengwu and Willcox, Karen. \textit{Bayesian operator inference for data-driven reduced-order modeling}. 2022
+        \item Chen, Ricky and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David. \textit{Neural ordinary differential equations}. 2018
+        \item Antil, Harbir and Leykekhman, Dmitriy. \textit{A brief introduction to PDE-constrained optimization}. 2018
+        \item Bradley, Andrew. \textit{PDE-constrained optimization and the adjoint method}. 2021
+        
+    \end{itemize}
+
+    \newpage
+	
+	\subsubsection*{Time table}
+	\begin{itemize}
+        \item[-] Fill in agreement with the supervisor.
+        \item[-] 15 January - 10 March: Reading the theory. Learning of the typing system LaTeX 
+        \item[-] 11 March - 30 April: Execution. Most of the report writing.
+        \item[-] 1 May - 31 May: Completion and closing. In this phase, the report is completed and proofread together with the advisor. The work is submitted to an examiner, to be presented at a seminar two weeks later.
+    \end{itemize}
+	\vspace{0.5cm}
+    
+	\noindent This study plan has been signed in two copies by the student and the advisor.
+	
+	\vspace{0.5cm}
+	\noindent
+	%Lund, January 20, 2025
+	Lund, \today
+	
+	\vspace{1.0cm}
+	\noindent Student \hspace{5cm}Advisor
+	
+	%%% SIGNATURE %%%
+	\begin{tikzpicture}
+		\node[above=1.5 cm,right=1.0cm] () {};
+		\includegraphics[width=4cm]{signature.png};
+	\end{tikzpicture}
+	
+\end{document}
