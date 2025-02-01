@@ -2,16 +2,16 @@
 \begin{document}
 	\section*{Study Plan for Degree Project}
 	Degree Project: NUMM03 for Master's Degree in Numerical Analysis \\
-	Student: John Doe, XXXXXX-XXXX\\
-	Advisor: --\\
-	Examiner: --\\ 
+	Student: Francisco García Atienza, XXXXXX-XXXX\\
+	Advisor: Mengwu Guo\\
+	Examiner: Philipp Birken\\ 
 	Time:  January 20, 2025 -- June 8, 2025\\
     Preliminary examination date: June 8, 2025
 	
 	\subsubsection*{Content}
 	This project focuses on reduced-order modeling (ROM), a technique for simplifying complex systems, and its integration with novel machine learning approaches, specifically addressing model problems in numerical analysis and computational physics (e.g., Burgers' equation).\\
     
-    \noindent The thesis integrates Operator Inference (OpInf), a data-driven method for approximating reduced-order operators, with adjoint methods and potentially automatic differentiation. OpInf uses time series data $\{a(t_i)\}$ from complex systems to infer reduced-order operators $\{\hat{f}(a, \theta)\}$. By optimizing parameters $\theta$ using a loss function tied to system dynamics, this work explores efficient gradient computation during training through adjoint or automatic differentiation.\\
+    \noindent The thesis integrates Operator Inference (OpInf), a data-driven method for approximating reduced-order operators, with Neural ODEs by using the adjoint state method. OpInf uses time series data $\{\mathbf{q}(t_i)\}$ from complex systems to infer reduced-order operators $\{\hat{f}(\mathbf{q}, \bm{\Theta})\}$. By optimizing parameters $\bm{\Theta}$ using a loss function tied to system dynamics, this work explores efficient gradient computation during training through adjoint operators.\\
 
     The main objectives of the thesis are:
     \begin{itemize}

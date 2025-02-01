@@ -106,6 +106,9 @@
 %\RequirePackage[T1]{fontenc}
 \if@cm\RequirePackage{ae}\fi
 
+% AMS packages
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{bm}
 % Using LU fonts (Adobe Garamond Pro and Frutiger) if we compile with XeLaTeX
 \usepackage{ifxetex}
 
