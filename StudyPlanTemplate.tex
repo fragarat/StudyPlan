@@ -1,4 +1,8 @@
 \documentclass[en,cm,10pt]{inst}
+\usepackage{biblatex}
+
+\bibliography{references}
+
 \begin{document}
 	\section*{Study Plan for Degree Project}
 	Degree Project: NUMM03 for Master's Degree in Numerical Analysis \\
@@ -19,21 +23,14 @@
         \item Bridge classical numerical analysis techniques (e.g., ROM) with modern machine learning methods.
     \end{itemize}
 	
-	\subsubsection*{Literature}
-	%for instance Borevich--Shafarevich, \textit{Number Theory}.
-    \begin{itemize}
-    
-        \item Quarteroni, Alfio and Manzoni, Andrea and Negri, Federico. \textit{Reduced basis methods for partial differential equations: an introduction}. 2015
-        \item Peherstorfer, Benjamin and Willcox, Karen. \textit{Data-driven operator inference for nonintrusive projection-based model reduction}. 2016
-        \item Ghattas, Omar and Willcox, Karen. \textit{Learning physics-based models from data: perspectives from inverse problems and model reduction}. 2021
-        \item McQuarrie, Shane and Guo, Mengwu and Willcox, Karen. \textit{Bayesian operator inference for data-driven reduced-order modeling}. 2022
-        \item Chen, Ricky and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David. \textit{Neural ordinary differential equations}. 2018
-        \item Antil, Harbir and Leykekhman, Dmitriy. \textit{A brief introduction to PDE-constrained optimization}. 2018
-        \item Bradley, Andrew. \textit{PDE-constrained optimization and the adjoint method}. 2021
-        
-    \end{itemize}
-
-    \newpage
+    % BIBLIOGRAPHY
+	
+	\bibitemsep = 3ex
+	\bibhang = 2em
+	
+	\nocite{*} %includes ALL refs in the bibliographic database whether or not were cited in the text
+	
+	\printbibliography[heading=bibintoc,title=\normalsize Literature]
 	
 	\subsubsection*{Time table}
 	\begin{itemize}
