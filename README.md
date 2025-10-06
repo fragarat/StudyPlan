@@ -12,15 +12,17 @@ This repository contains a LaTeX template for creating personalized study plans,
 
 ## Repository Structure
 
+```text
 StudyPlan/
-├── fonts/ # Font files
-├── HOW TO COMPILE.txt # Compilation instructions
+├── fonts/                # Font files
+├── HOW TO COMPILE.txt    # Compilation instructions
 ├── StudyPlanTemplate.tex # Main LaTeX template
-├── inst.cls # Custom LaTeX class
-├── logoLUeng.eps # English logo
-├── logoLUsv.eps # Swedish logo
-├── references.bib # BibTeX bibliography
-└── signature.png # Signature image
+├── inst.cls              # Custom LaTeX class
+├── logoLUeng.eps         # English logo
+├── logoLUsv.eps          # Swedish logo
+├── references.bib        # BibTeX bibliography
+└── signature.png         # Signature image
+```
 
 ## Compilation Instructions
 
