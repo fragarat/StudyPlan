@@ -1,6 +1,6 @@
 # StudyPlan
 
-LaTeX Study Plan Template using LU fonts
+LaTeX BSc/MSc Thesis Study Plan Template using LU fonts
 
 ## Description
 
