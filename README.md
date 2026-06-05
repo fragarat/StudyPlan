@@ -51,7 +51,4 @@ Contributions are welcome! To improve this template:
 4. Push to the branch (`git push origin new-feature`).
 5. Open a Pull Request on GitHub.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
