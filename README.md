@@ -51,4 +51,10 @@ Contributions are welcome! To improve this template:
 4. Push to the branch (`git push origin new-feature`).
 5. Open a Pull Request on GitHub.
 
+---
+
+## 📄 License
+
+This project is open-source and distributed under the standard **MIT License**.
+
 
